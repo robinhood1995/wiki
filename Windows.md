@@ -2,13 +2,13 @@
 title: Windows
 description: 
 published: true
-date: 2025-12-14T06:27:28.283Z
+date: 2025-12-14T06:32:32.457Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-14T06:27:28.283Z
 ---
 
-# <img src="/images/microsoft-windows.png" width="50" style="vertical-align:middle;margin-right:4px" class="tab-icon">What is the Windows Docker Container?
+# <img src="/images/microsoft-windows.png" width="50" style="vertical-align:middle;margin-right:4px" class="tab-icon"> What is the Windows Docker Container?
 The Windows 11 Operating System within a docker container.
 
 # <img src="/images/docker.png" width="50" style="vertical-align:middle;margin-right:4px" class="tab-icon"> 1 · Deploy Windows
@@ -40,3 +40,6 @@ services:
     stop_grace_period: 2m
     restart: always
 ```
+# <img src="/images/microsoft-windows.png" width="50" style="vertical-align:middle;margin-right:4px" class="tab-icon"> More
+[Dockur](https://github.com/dockur/windows) 
+This is the creator of the images and you have check out their link for more options including ARM versions.
