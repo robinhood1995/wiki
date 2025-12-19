@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2025-10-20T01:58:17.998Z
+date: 2025-12-19T01:18:05.235Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -17,11 +17,15 @@ All information contained within this document or resource is provided strictly 
 No warranty, express or implied, is made regarding the accuracy, completeness, reliability, or suitability of the information provided. The authors, publishers, and distributors disclaim any and all liability arising from the use of or reliance on this material, including but not limited to any errors, omissions, or consequences resulting therefrom. Users are encouraged to consult qualified professionals for advice tailored to their specific situations and to verify all information independently.
 By accessing or using this content, you acknowledge and agree to these terms.
 
+# 🖥️ [FORUMS](https://forums.thehomestack.io/)
+Use our forums for any questions you may have from this site.
+
 ## Start Here
 New to self-hosting? Start here:
 
 ▶️ **[Linux](/linux/)**
 ▶️ **[Synology](/synology)**
+▶️ **[ArcLoader Synology](/synology)**
 ▶️ **[Docker](/docker)**
 ▶️ **[Portainer](/portainer)**
 
