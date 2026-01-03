@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-01-03T16:12:32.457Z
+date: 2026-01-03T17:08:03.500Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -18,11 +18,12 @@ No warranty, express or implied, is made regarding the accuracy, completeness, r
 By accessing or using this content, you acknowledge and agree to these terms.
 
 # 🖥️ [FORUMS](https://forums.thehomestack.io/)
-Use our forums for any questions you may have from this site.
+Use our NEW [forums](https://forums.thehomestack.io/) forums for any questions you may have from this site.
 
 ## Start Here
 New to self-hosting? Start here:
 
+▶️ **[pfSense](/pfsense/)**
 ▶️ **[Linux](/linux/)**
 ▶️ **[Synology](/synology)**
 ▶️ **[ArcLoader Synology](/synology)**
@@ -55,7 +56,7 @@ New to self-hosting? Start here:
 [<img src="/images/jellyseerr.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyseer Setup](/jellyseerr)
 
 ### 🖥️ Self-Hosting ImageStack
-[<img src="/images/immich.png" width="25" style="vertical-align:middle;margin-right:4px"> Immich Photo Management](/immich)
+<img src="/images/immich.png" width="25" style="vertical-align:middle;margin-right:4px">[ Immich Photo Management](/immich)
 
 ## 🌐 Media Access🛡️Security
 Make sure you configure a VPN 
@@ -63,14 +64,12 @@ Make sure you configure a VPN
 <img src="/images/gluetun.png" width="25" style="vertical-align:middle;margin-right:4px">[ Gluetun Tunnel](/Gluetun)
 
 ## 🌐 Firewall / Networking
-<img src="/images/pfsense.png" width="25" style="vertical-align:middle;margin-right:4px">[ pFsense](/Pfsense)
+<img src="/images/pfsense.png" width="25" style="vertical-align:middle;margin-right:4px">[ pFsense](/pfsense)
 
 
 # 🌟 Favorites
 
-🔥 **Must See**  
-- [Homelab Equipment]  
-- [Must-Have Docker Containers]
+🔥:office: [Homelab Equipment](/homelab) The equipment
 
 ---
 
