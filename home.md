@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2025-12-19T01:18:05.235Z
+date: 2026-01-03T16:12:32.457Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -91,3 +91,6 @@ For complex issues, our [Discord](https://discord.gg/qKhmmKjF) provides faster r
 > 📱 **Mobile Users**  
 > Tap the blue ☰ icon (bottom-left) to navigate.
 {.is-info}
+
+&copy; CopyRight [TheHomeStack](https://www.thehomestack.io) | All Rights Reserved
+Owned by [SFLServicesLLC](https://www.sflservicesllc.com) | <img src="/images/sflservicesllc.png" width="25" style="vertical-align:middle;margin-right:4px">
