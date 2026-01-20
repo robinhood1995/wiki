@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-01-20T18:53:38.398Z
+date: 2026-01-20T18:54:08.566Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -91,5 +91,5 @@ For complex issues, our [Discord](https://discord.gg/qKhmmKjF) provides faster r
 > Tap the blue ☰ icon (bottom-left) to navigate.
 {.is-info}
 
-&copy; CopyRight [TheHomeStack](https://www.thehomestack.io) | All Rights Reserved
+&copy; Copyright [TheHomeStack](https://www.thehomestack.io) | All Rights Reserved
 Owned by [logstor.io](https://www.logistor.io)
