@@ -2,7 +2,7 @@
 title: Rustdesk
 description: 
 published: true
-date: 2026-04-24T19:59:22.142Z
+date: 2026-04-24T20:01:29.984Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-24T19:43:25.326Z
@@ -53,7 +53,8 @@ services:
     netowrk_mode: host
     restart: unless-stopped
 ```
-Table of Ports
+## <img src="/images/docker.png" width="25" class="tab-icon"> pfSense Ports
+Table of Ports (using HAProxy)
 | Port | Protocol | Purpose | Recommended pfSense Method |
 | :--- | :--- | :--- | :--- |
 | **21115** | TCP | ID Server (hbbs) | HAProxy (TCP Mode) |
