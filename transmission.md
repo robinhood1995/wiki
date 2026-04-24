@@ -2,7 +2,7 @@
 title: Transmission
 description: 
 published: true
-date: 2025-10-29T22:36:07.549Z
+date: 2026-04-24T19:58:10.323Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T22:40:36.863Z
@@ -62,6 +62,16 @@ services:
     restart: unless-stopped
 
 ```
+Table of Ports
+
+| Port | Protocol | Purpose | Recommended Method |
+| :--- | :--- | :--- | :--- |
+| **21115** | TCP | ID Server (hbbs) | HAProxy (TCP Mode) |
+| **21116** | TCP | TCP Hole Punching | HAProxy (TCP Mode) |
+| **21116** | UDP | Heartbeat/Status | NAT Port Forward |
+| **21117** | TCP | Relay Server (hbbr) | HAProxy (TCP Mode) |
+| **21118/9** | TCP | WebSockets (Web UI) | HAProxy (TCP/SSL Mode) |
+
 ### Environment File
 📌 .ENV / .env files code needed for setting the above containers have a look here for all variables
 [Environment File](/environment)
