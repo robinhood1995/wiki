@@ -2,7 +2,7 @@
 title: Rustdesk
 description: 
 published: true
-date: 2026-04-24T19:43:25.326Z
+date: 2026-04-24T19:59:22.142Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-24T19:43:25.326Z
@@ -53,6 +53,15 @@ services:
     netowrk_mode: host
     restart: unless-stopped
 ```
+Table of Ports
+| Port | Protocol | Purpose | Recommended pfSense Method |
+| :--- | :--- | :--- | :--- |
+| **21115** | TCP | ID Server (hbbs) | HAProxy (TCP Mode) |
+| **21116** | TCP | TCP Hole Punching | HAProxy (TCP Mode) |
+| **21116** | UDP | Heartbeat/Status | NAT Port Forward |
+| **21117** | TCP | Relay Server (hbbr) | HAProxy (TCP Mode) |
+| **21118/9** | TCP | WebSockets (Web UI) | HAProxy (TCP/SSL Mode) |
+
 ### Environment File
 📌 .ENV / .env files code needed for setting the above containers have a look here for all variables
 [Environment File](/environment)
