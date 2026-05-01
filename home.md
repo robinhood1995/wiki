@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-05-01T19:13:46.273Z
+date: 2026-05-01T19:15:00.813Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -69,7 +69,7 @@ Make sure you configure a VPN
 
 # 🌟 Favorites
 
-🔥:office: [Homelab Equipment](/homelab) The equipment
+🔥:office: [Office Lab Equipment](/officelab) The equipment
 
 ---
 
