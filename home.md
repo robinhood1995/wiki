@@ -2,13 +2,13 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-01-20T18:54:08.566Z
+date: 2026-05-01T19:13:46.273Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
 ---
 
-# 🖥️ Welcome to TheHomeStack
+# 🖥️ Welcome to SFL Services Wiki
 
 This wiki is aimed at the home enthusiast for HomeLab servers setup.
 
@@ -17,7 +17,7 @@ All information contained within this document or resource is provided strictly 
 No warranty, express or implied, is made regarding the accuracy, completeness, reliability, or suitability of the information provided. The authors, publishers, and distributors disclaim any and all liability arising from the use of or reliance on this material, including but not limited to any errors, omissions, or consequences resulting therefrom. Users are encouraged to consult qualified professionals for advice tailored to their specific situations and to verify all information independently.
 By accessing or using this content, you acknowledge and agree to these terms.
 
-# 🖥️ [FORUMS](https://forums.thehomestack.io/)
+# 🖥️ [FORUMS](https://forums.sflservicesllc.com/)
 Use our NEW [forums](https://forums.thehomestack.io/) forums for any questions you may have from this site.
 
 ## Start Here
@@ -91,5 +91,4 @@ For complex issues, our [Discord](https://discord.gg/qKhmmKjF) provides faster r
 > Tap the blue ☰ icon (bottom-left) to navigate.
 {.is-info}
 
-&copy; Copyright [TheHomeStack](https://www.thehomestack.io) | All Rights Reserved
-Owned by [logstor.io](https://www.logistor.io)
+&copy; Copyright [SFL Services Wiki](https://wwww.sflservicesllc.com) | All Rights Reserved
