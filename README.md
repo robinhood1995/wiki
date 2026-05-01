@@ -2,7 +2,7 @@
 title: README
 description: 
 published: false
-date: 2026-05-01T19:10:53.741Z
+date: 2026-05-01T19:12:12.056Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-01T03:40:26.063Z
@@ -10,7 +10,7 @@ dateCreated: 2025-11-01T03:40:26.063Z
 
 # Wiki
 
-This repo is automatically synced with the live Wiki.js site at [thehomestack.io](https://thehomestack.io/).
+This repo is automatically synced with the live Wiki.js site at [wiki.sflservicesllc.com](https://wiki.sflservicesllc.com/).
 
 ## 🧠 What You'll Find Here
 
@@ -19,7 +19,7 @@ This repo is automatically synced with the live Wiki.js site at [thehomestack.io
 
 ## ✔️ Forums
 What to chat with others or read up on some feeds
-[Forums](https://forums.thehomestack.io/)
+[Forums](https://forums.sflservicesllc.com/)
 
 ## 🤝 What to Contribute
 
@@ -27,7 +27,7 @@ What to chat with others or read up on some feeds
 
 1. Fork this repo or edit files directly in your browser
 2. Submit a pull request with your changes
-3. Once approved, your edits will automatically appear on [thehomestack.io](https://thehomestack.io/)
+3. Once approved, your edits will automatically appear on [wiki.sflservicesllc.com](https://wiki.sflservicesllc.com/)
 
 > 📢 **You do not need to use the Wiki.js UI** to contribute. GitHub is now the primary editing interface for this wiki.
 
