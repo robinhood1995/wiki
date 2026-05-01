@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: false
+date: 2026-05-01T19:10:53.741Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-01T03:40:26.063Z
+---
+
 # Wiki
 
 This repo is automatically synced with the live Wiki.js site at [thehomestack.io](https://thehomestack.io/).
