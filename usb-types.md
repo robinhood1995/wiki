@@ -2,7 +2,7 @@
 title: USB Types
 description: Different types of USB
 published: true
-date: 2026-05-20T01:53:08.322Z
+date: 2026-05-20T02:04:28.762Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-20T01:48:48.486Z
