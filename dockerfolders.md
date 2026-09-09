@@ -2,7 +2,7 @@
 title: Docker Folders
 description: 
 published: true
-date: 2025-10-20T01:16:30.210Z
+date: 2026-09-09T12:16:46.293Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T23:58:33.872Z
@@ -20,8 +20,8 @@ Creating Shared Folders for the Docker environments.
 
 Folder structure example, this applies to all enviroments to aide the moveability in-between flavors of OS:
 ```bash
-/volume1/docker
-/volume1/data
+/volume1/docker/stacks
+/volume1/docker/data
 ```
 # {.tabset}
 ## <img src="/images/synology-dsm.png" width="25" style="vertical-align:middle;margin-right:4px">Synology
@@ -55,8 +55,8 @@ c. Create the `/data` directory
 
 These will serve as the host directories for your Docker volumes.
 ```bash
-sudo mkdir -p /volume1/docker
-sudo mkdir -p /volume1/data
+sudo mkdir -p /volume1/docker/stacks
+sudo mkdir -p /volume1/docker/data
 ```
 
 2. Set the users
@@ -68,10 +68,10 @@ sudo useradd -m docker -g users
 ```
 3. Set the file permissions (we use admin for all)
 ```bash
-sudo chmod -R a=,a+rX,u+w,g+w /volume1/docker
-sudo chown -R admin:users /volume1/docker
-sudo chmod -R a=,a+rX,u+w,g+w /volume1/data
-sudo chown -R admin:users /volume1/data
+sudo chmod -R a=,a+rX,u+w,g+w /volume1/docker/stacks
+sudo chown -R admin:users /volume1/docker/stacks
+sudo chmod -R a=,a+rX,u+w,g+w /volume1/docker/data
+sudo chown -R admin:users /volume1/docker/data
 ```
 4. Get the id information from the users (needed for later)
 ```bash
