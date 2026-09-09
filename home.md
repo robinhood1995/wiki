@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-09-09T12:21:34.692Z
+date: 2026-09-09T12:24:40.333Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -87,7 +87,7 @@ Make sure you configure a VPN
 Please use Discord.
 
 <img src="/images/discord.png" width="25" style="vertical-align:middle;margin-right:4px"> **Technical Questions**  
-For complex issues, our [Discord](https://discord.gg/qKhmmKjF) provides faster responses.
+For complex issues, our [Discord](https://discord.gg/f2s2qzEJE) provides faster responses.
 
 > 📱 **Mobile Users**  
 > Tap the blue ☰ icon (bottom-left) to navigate.
