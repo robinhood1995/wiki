@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-05-01T19:15:00.813Z
+date: 2026-09-09T12:21:34.692Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -18,7 +18,7 @@ No warranty, express or implied, is made regarding the accuracy, completeness, r
 By accessing or using this content, you acknowledge and agree to these terms.
 
 # 🖥️ [FORUMS](https://forums.sflservicesllc.com/)
-Use our NEW [forums](https://forums.thehomestack.io/) forums for any questions you may have from this site.
+Use our NEW [forums](https://forums.sflservicesllc.com/) forums for any questions you may have from this site.
 
 ## Start Here
 New to self-hosting? Start here:
@@ -27,7 +27,9 @@ New to self-hosting? Start here:
 ▶️ **[Linux](/linux/)**
 ▶️ **[Synology](/synology)**
 ▶️ **[ArcLoader Synology](/synology)**
-▶️ **[Docker](/docker)**
+▶️ **[Docker](/docker)
+
+▶️ **[Docker Homelab Stacks](/docker-stacks)****
 ▶️ **[Portainer](/portainer)**
 
 
@@ -51,8 +53,8 @@ New to self-hosting? Start here:
 [<img src="/images/portainer.png" width="25" style="vertical-align:middle;margin-right:4px">Install Portainer](/portainer)
 
 ### 🖥️ Self-Hosting MediaStack (must have)
-[<img src="/images/plex.png" width="25" style="vertical-align:middle;margin-right:4px"> Plex Setup](/Plex)
-[<img src="/images/jellyfin.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyfin Setup](/Jellyfin)
+[<img src="/images/plex.png" width="25" style="vertical-align:middle;margin-right:4px"> Plex Setup](/plex)
+[<img src="/images/jellyfin.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyfin Setup](/jellyfin)
 [<img src="/images/jellyseerr.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyseer Setup](/jellyseerr)
 
 ### 🖥️ Self-Hosting ImageStack
@@ -61,7 +63,7 @@ New to self-hosting? Start here:
 ## 🌐 Media Access🛡️Security
 Make sure you configure a VPN 
 <img src="/images/proton-vpn.png" width="25" style="vertical-align:middle;margin-right:4px">[ Proton VPN](/https://protonvpn.com/)
-<img src="/images/gluetun.png" width="25" style="vertical-align:middle;margin-right:4px">[ Gluetun Tunnel](/Gluetun)
+<img src="/images/gluetun.png" width="25" style="vertical-align:middle;margin-right:4px">[ Gluetun Tunnel](/gluetun)
 
 ## 🌐 Firewall / Networking
 <img src="/images/pfsense.png" width="25" style="vertical-align:middle;margin-right:4px">[ pFsense](/pfsense)
