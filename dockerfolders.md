@@ -2,7 +2,7 @@
 title: Docker Folders
 description: 
 published: true
-date: 2026-09-09T12:16:46.293Z
+date: 2026-09-09T12:16:48.839Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T23:58:33.872Z

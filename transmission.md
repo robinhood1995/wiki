@@ -2,7 +2,7 @@
 title: Transmission
 description: 
 published: true
-date: 2026-04-24T19:58:10.323Z
+date: 2026-08-01T13:38:50.412Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T22:40:36.863Z

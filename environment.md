@@ -2,7 +2,7 @@
 title: Environment
 description: 
 published: true
-date: 2025-10-19T21:31:41.420Z
+date: 2026-08-01T13:38:34.701Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T19:23:39.587Z

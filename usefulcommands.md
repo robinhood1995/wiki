@@ -2,7 +2,7 @@
 title: Useful Commands
 description: 
 published: true
-date: 2025-10-21T03:27:04.424Z
+date: 2026-08-01T13:38:55.559Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T03:15:02.861Z

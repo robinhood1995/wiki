@@ -2,7 +2,7 @@
 title: Windows
 description: 
 published: true
-date: 2025-12-14T06:32:32.457Z
+date: 2026-08-01T13:38:22.246Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-14T06:27:28.283Z
