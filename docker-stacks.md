@@ -1,8 +1,8 @@
 ---
 title: Docker Stack Catalog
-description: Catalog of 49 homelab Docker Compose stacks grouped by category, with links to step-by-step guides.
+description: Catalog of 54 homelab Docker Compose stacks grouped by category, with links to step-by-step guides.
 published: true
-date: 2026-10-18T03:27:15.393Z
+date: 2026-11-22T06:33:38.849Z
 tags: catalog, docker, docker-compose, homelab
 editor: markdown
 dateCreated: 2026-09-08T21:11:08.018Z
@@ -13,7 +13,7 @@ dateCreated: 2026-09-08T21:11:08.018Z
 > Ready-to-use Docker Compose stacks for your homelab, grouped by what they do. Every guide follows the same structure, so it's easy to follow by hand or parse with a script.
 {.is-info}
 
-_Last updated: Oct 2026_
+_Last updated: Nov 2026_
 
 ## How these guides work
 
@@ -52,7 +52,7 @@ Media servers, requests and companions.
 | [Jellyfin](/jellyfin) | Free, open-source media server | `jellyfin/jellyfin:latest` |
 | [Jellyseerr](/jellyseerr) | Media request manager (deprecated, use Seerr) | `fallenbagel/jellyseerr:latest` |
 | [MeTube](/metube) | Web UI for yt-dlp video downloads | `ghcr.io/alexta69/metube` |
-| [Ombi](/ombi) | Media request portal for Plex and Jellyfin | `lscr.io/linuxserver/ombi:latest` |
+| [Ombi](/ombi) | Media request portal (deprecated, use Seerr) | `lscr.io/linuxserver/ombi:latest` |
 | [Plex](/plex) | Plex Media Server with hardware transcoding | `ghcr.io/hotio/plex` |
 | [Seerr](/seerr) | Media request manager (successor to Jellyseerr/Overseerr) | `ghcr.io/seerr-team/seerr:latest` |
 | [Tautulli](/tautulli) | Plex monitoring and statistics | `lscr.io/linuxserver/tautulli:latest` |
@@ -86,7 +86,7 @@ Files, sharing, conversion, diagrams and e-signatures.
 | [ConvertX](/convertx) | Web file converter for hundreds of formats | `ghcr.io/c4illin/convertx:latest` |
 | [Directory Lister](/directorylister) | Browsable web index of a shared folder | `directorylister/directorylister:latest` |
 | [DocuSeal](/docuseal) | Document signing (DocuSign alternative) | `docuseal/docuseal:latest` |
-| [Double Commander](/doublecommander) | Dual-pane file manager in the browser | `lscr.io/linuxserver/doublecommander:latest` |
+| [Double Commander](/doublecommander) | Dual-pane file manager (deprecated, stack removed) | `lscr.io/linuxserver/doublecommander:latest` |
 | [diagrams.net (draw.io)](/drawio) | Diagram and network map editor | `jgraph/drawio` |
 | [File Browser](/filebrowser) | Simple web file manager | `filebrowser/filebrowser:s6` |
 | [Filestash](/filestash) | Web file manager with Collabora office editing | `machines/filestash:latest` |
@@ -99,7 +99,9 @@ Single sign-on, passwords and remote access.
 |---|---|---|
 | [Apache Guacamole](/guacamole) | Clientless RDP, SSH and VNC gateway | `guacamole/guacd:latest` |
 | [Keycloak](/keycloak) | Identity provider and single sign-on (OIDC/SAML) | `quay.io/keycloak/keycloak:26.4.7` |
+| [oauth2-proxy](/oauth2-proxy) | SSO auth gateway (Caddy forward_auth + Keycloak) | `quay.io/oauth2-proxy/oauth2-proxy:v7.12.1` |
 | [RustDesk Server](/Rustdesk) | Self-hosted remote desktop relay (hbbs + hbbr) | `rustdesk/rustdesk-server:latest` |
+| [UniFi Network Application](/unifi) | Self-hosted UniFi Network controller | `lscr.io/linuxserver/unifi-network-application:latest` |
 | [Vaultwarden](/vaultwarden) | Bitwarden-compatible password manager | `vaultwarden/server:latest` |
 
 ### Monitoring
@@ -117,6 +119,7 @@ Metrics, logs, dashboards and GPU/network monitoring.
 | [nvtop](/nvtop) | NVIDIA GPU process monitor | `69guitar1015/nvtop:latest` |
 | [Prometheus](/prometheus) | Metrics database and scraper | `prom/prometheus:latest` |
 | [Speedtest Tracker](/speedtest) | Scheduled internet speed tests with history | `lscr.io/linuxserver/speedtest-tracker:latest` |
+| [WatchYourLAN](/watchyourlan) | LAN device discovery and inventory | `ghcr.io/aceberg/watchyourlan:latest` |
 
 ### Developer and IT tools
 
@@ -138,7 +141,9 @@ Managing, updating and wiring up your stacks.
 
 | Stack | What it does | Main image |
 |---|---|---|
+| [Backrest](/backrest) | Web UI for Restic backups | `garethgeorge/backrest:latest` |
 | [Dockge](/dockge) | Web UI for managing Docker Compose stacks | `louislam/dockge:1` |
+| [Homarr](/homarr) | Homelab dashboard for app shortcuts and widgets | `ghcr.io/homarr-labs/homarr:latest` |
 | [Mailrise](/mailrise) | SMTP gateway that turns emails into push notifications | `yoryan/mailrise:latest` |
 | [Nebula Sync](/nebula) | Syncs Pi-hole configuration between instances | `ghcr.io/lovelaze/nebula-sync:latest` |
 | [Watchtower](/watchtower) | Automatic container image updates | `containrrr/watchtower:latest` |
@@ -171,6 +176,7 @@ Game-related helpers.
 | `arr_download` | [Arr Download](/arr-download) | Downloads |
 | `arr_download_1` | [Arr Download 1](/arr-download-1) | Downloads |
 | `arr_stack` | [Arr Stack](/arr-stack) | Downloads |
+| `backrest` | [Backrest](/backrest) | Stack management |
 | `bambustudio` | [Bambu Studio](/bambustudio) | Developer and IT tools |
 | `code-server` | [code-server](/code-server) | Developer and IT tools |
 | `convertx` | [ConvertX](/convertx) | Documents |
@@ -182,7 +188,7 @@ Game-related helpers.
 | `dispatcharr` | [Dispatcharr](/dispatcharr) | Media |
 | `dockge` | [Dockge](/dockge) | Stack management |
 | `docuseal` | [DocuSeal](/docuseal) | Documents |
-| `doublecommander` | [Double Commander](/doublecommander) | Documents |
+| `doublecommander` | [Double Commander](/doublecommander) (deprecated) | Documents |
 | `dozzle` | [Dozzle](/dozzle) | Monitoring |
 | `drawio` | [diagrams.net (draw.io)](/drawio) | Documents |
 | `filebrowser` | [File Browser](/filebrowser) | Documents |
@@ -192,6 +198,7 @@ Game-related helpers.
 | `grafana` | [Grafana](/grafana) | Monitoring |
 | `graphite-exporter` | [Graphite Exporter](/graphite-exporter) | Monitoring |
 | `guacamole` | [Apache Guacamole](/guacamole) | Identity and security |
+| `homarr` | [Homarr](/homarr) | Stack management |
 | `immich` | [Immich](/immich) | Photos and cameras |
 | `it-tools` | [IT-Tools](/it-tools) | Developer and IT tools |
 | `jellyfin` | [Jellyfin](/jellyfin) | Media |
@@ -202,7 +209,8 @@ Game-related helpers.
 | `nebula` | [Nebula Sync](/nebula) | Stack management |
 | `netdata` | [Netdata](/netdata) | Monitoring |
 | `nvtop` | [nvtop](/nvtop) | Monitoring |
-| `ombi` | [Ombi](/ombi) | Media |
+| `oauth2-proxy` | [oauth2-proxy](/oauth2-proxy) | Identity and security |
+| `ombi` | [Ombi](/ombi) (deprecated, use Seerr) | Media |
 | `plex` | [Plex](/plex) | Media |
 | `prometheus` | [Prometheus](/prometheus) | Monitoring |
 | `rackula` | [Rackula](/rackula) | Developer and IT tools |
@@ -210,8 +218,10 @@ Game-related helpers.
 | `seerr` | [Seerr](/seerr) | Media |
 | `speedtest` | [Speedtest Tracker](/speedtest) | Monitoring |
 | `tautulli` | [Tautulli](/tautulli) | Media |
+| `unifi` | [UniFi Network Application](/unifi) | Identity and security |
 | `vaultwarden` | [Vaultwarden](/vaultwarden) | Identity and security |
 | `watchtower` | [Watchtower](/watchtower) | Stack management |
+| `watchyourlan` | [WatchYourLAN](/watchyourlan) | Monitoring |
 | `wizarr` | [Wizarr](/Wizarr) | Media |
 
 ## Other guides
