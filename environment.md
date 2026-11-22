@@ -1,54 +1,95 @@
 ---
 title: Environment
-description: 
+description: Shared .env and .secret files used by every stack guide, with /opt/stacks paths and placeholders.
 published: true
-date: 2026-08-01T13:38:34.701Z
+date: 2026-11-22T06:33:32.245Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-19T19:23:39.587Z
 ---
 
-# <img src="/images/windows-terminal.png" width="50" style="vertical-align:middle;margin-right:4px">What's a Docker .ENV file?
-A Docker .env file is a plain-text file used to define environment variables for Docker containers, particularly when working with Docker Compose. It serves as a central location to store configuration settings, including sensitive information like database credentials or API keys, separate from your application code or Dockerfile.
+# Environment
 
-## Breakdown and key aspects:
-### Purpose:
-It allows you to externalize configuration, making it easier to manage and share settings across different environments (development, staging, production) without modifying the core application or Docker image.
-### Content:
-It contains key-value pairs, where each line defines an environment variable in the format VARIABLE_NAME=value.
-### Usage with Docker Compose:
-When using Docker Compose, the .env file (typically placed in the same directory as your docker-compose.yaml file) is automatically loaded and its variables are made available for interpolation within the docker-compose.yaml file and to the services defined within it. You can also explicitly specify an environment file using the env_file directive in your docker-compose.yaml.
-### Usage with docker run:
-You can also use an .env file with the docker run command by using the --env-file flag to pass the variables to a single container.
-### Precedence:
-It's important to note that environment variables set directly on the host system or within the docker-compose.yaml file can override values defined in the .env file.
+> Shared `.env` and `.secret` files used by every stack guide on this wiki.
+{.is-info}
 
-## Example:
-These are examples that we use throughout this site on out projects.
+_Last updated: Nov 2026_
+
+## What's a Docker `.env` file?
+
+A Docker `.env` file is a plain-text file of environment variables for containers, especially when you use Docker Compose. It keeps configuration — and, in a separate secrets file, credentials — out of your compose file and images.
+
+### Purpose
+
+Externalizing configuration makes it easier to reuse the same compose file on different machines without editing the file itself.
+
+### Content
+
+Each line is a `VARIABLE_NAME=value` pair. Quotes are only needed when a value contains spaces.
+
+### Usage with Docker Compose
+
+The stack guides on this wiki do **not** rely on a compose-directory `.env` alone. They load two shared files explicitly:
+
+```bash
+docker compose --env-file /opt/stacks/_shared/.env --env-file /opt/stacks/_shared/.secret up -d
+```
+
+You can also pass a file to `docker run` with `--env-file`.
+
+### Precedence
+
+Variables set in the shell or in the compose `environment:` block override values from the env files. Later `--env-file` arguments override earlier ones, so `.secret` wins over `.env` for the same key.
+
+## Files used on this wiki
+
+```text
+/opt/stacks/_shared/.env      # shared, non-secret settings
+/opt/stacks/_shared/.secret   # passwords, tokens and keys (chmod 600, never commit)
+```
+
+See [Docker Folders](/dockerfolders) for the rest of the directory layout (`/opt/stacks`, `/opt/appdata`, `/srv/media`, `/srv/data`).
+
+### Example `.env`
+
+Replace every `<PLACEHOLDER>` with your own value. `PUID` and `PGID` should match a user on your host; `1000` is a common default on desktop Linux, not a requirement.
+
 ```ini
-PUID=1024
-PGID=100
-TZ=America/Montreal
-UMASK=002
+PUID=1000
+PGID=1000
+TZ=<TZ>
 DOCKERLOGGING_MAXFILE=10
 DOCKERLOGGING_MAXSIZE=200k
-DOCKERFOLDER=/volume1/docker
-TORRENTDOWNLOAD=/mnt/data/torrents
-USENETDOWNLOAD=/mnt/data/usenet
-SERVAAR=/mnt/data
-MEDIAFOLDER=/mnt/data/media
-VPN_TYPE=openvpn
-SERVER_COUNTRIES=Albania,Algeria,Angola,Argentina,Australia,Austria,Azerbaijan
+```
+
+Optional paths used by some download and *arr* guides:
+
+```ini
+MEDIAFOLDER=/srv/media
+DOWNLOADFOLDER=/srv/data
+```
+
+### Example `.secret`
+
+Keep this file mode `600` and never publish it. API keys, VPN credentials and database passwords belong here. The empty keys below are placeholders only:
+
+```ini
 OPENVPN_USERNAME=
 OPENVPN_PASSWORD=
-TP_THEME=organizr
 RADARR_API_KEY=
 SONARR_API_KEY=
 LIDARR_API_KEY=
-MYLAR_API_KEY=
 PROWLARR_API_KEY=
-LAZYLIBRARIAN_API_KEY=
-WHISPARR_API_KEY=
-READARR_API_KEY=
 PLEX_API_KEY=
 ```
+
+Fill only the variables your stacks actually use.
+
+## Related
+
+- [Docker Folders](/dockerfolders)
+- [Docker Stack Catalog](/docker-stacks)
+- [Docker](/docker)
+
+---
+*Educational example. Review every path, port and credential before you deploy, and never publish your `.secret` file.*
