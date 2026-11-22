@@ -2,7 +2,7 @@
 title: Seerr
 description: Seerr media request manager for Plex, Jellyfin and Emby with Docker Compose.
 published: true
-date: 2026-10-18T03:27:20.571Z
+date: 2026-11-22T06:33:28.677Z
 tags: docker, docker-compose, homelab, jellyfin, media, plex, requests
 editor: markdown
 dateCreated: 2026-09-08T21:26:12.838Z
@@ -71,7 +71,7 @@ services:
         max-file: ${DOCKERLOGGING_MAXFILE:-10}  # Max number of log files
         max-size: ${DOCKERLOGGING_MAXSIZE:-200k}  # Max file size
     ports:
-      - 5055:5055 # Jellyseer Web UI
+      - 5055:5055 # Seerr Web UI
     volumes:
       - /opt/appdata/seerr/config:/app/config # Change to your desired config path
     network_mode: host
@@ -110,7 +110,7 @@ DOCKERLOGGING_MAXSIZE=200k
 
 | Host port | Container port | Protocol | Service | Purpose |
 |---|---|---|---|---|
-| 5055 | 5055 | tcp | `seerr` | Jellyseer Web UI |
+| 5055 | 5055 | tcp | `seerr` | Seerr Web UI |
 | host network | - | - | `seerr` | 5055/tcp (web UI) |
 
 ## Volumes
