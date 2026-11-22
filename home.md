@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-09-26 01:00:28
+date: 2026-11-22T06:33:18.295Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -23,8 +23,8 @@ Use our NEW [forums](https://forums.thehomestack.io/) forums for any questions y
 ## Start Here
 New to self-hosting? Start here:
 
-▶️ **[pfSense](/pfsense/)**
-▶️ **[Linux](/linux/)**
+▶️ **pfSense**
+▶️ **Linux**
 ▶️ **[Synology](/synology)**
 ▶️ **[ArcLoader Synology](/synology)**
 ▶️ **[Docker](/docker)
@@ -48,6 +48,10 @@ New to self-hosting? Start here:
 
 # <img src="/images/redhat-linux.png" width="25" style="vertical-align:middle;margin-right:4px"> Linux EcoSystem <img src="/images/rocky-linux.png" width="25" style="vertical-align:middle;margin-right:4px">
 
+## Admin Scripts
+[Linux & Docker Admin Scripts](https://docs.thehomestack.io/books/linux-docker-admin-scripts): practical shell scripts and how-tos for monitoring, backups, scheduled jobs, certificates and media-library housekeeping, on our documentation site.
+
+
 ## 🫙 Containerized
 [<img src="/images/docker.png" width="25" style="vertical-align:middle;margin-right:4px">Install Docker](/docker)
 [<img src="/images/portainer.png" width="25" style="vertical-align:middle;margin-right:4px">Install Portainer](/portainer)
@@ -55,23 +59,23 @@ New to self-hosting? Start here:
 ### 🖥️ Self-Hosting MediaStack (must have)
 [<img src="/images/plex.png" width="25" style="vertical-align:middle;margin-right:4px"> Plex Setup](/plex)
 [<img src="/images/jellyfin.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyfin Setup](/jellyfin)
-[<img src="/images/jellyseerr.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyseer Setup](/jellyseerr)
+[<img src="/images/jellyseerr.png" width="25" style="vertical-align:middle;margin-right:4px"> Seerr Setup](/jellyseerr)
 
 ### 🖥️ Self-Hosting ImageStack
 <img src="/images/immich.png" width="25" style="vertical-align:middle;margin-right:4px">[ Immich Photo Management](/immich)
 
 ## 🌐 Media Access🛡️Security
 Make sure you configure a VPN 
-<img src="/images/proton-vpn.png" width="25" style="vertical-align:middle;margin-right:4px">[ Proton VPN](/https://protonvpn.com/)
+<img src="/images/proton-vpn.png" width="25" style="vertical-align:middle;margin-right:4px">[ Proton VPN](https://protonvpn.com/)
 <img src="/images/gluetun.png" width="25" style="vertical-align:middle;margin-right:4px">[ Gluetun Tunnel](/gluetun)
 
 ## 🌐 Firewall / Networking
-<img src="/images/pfsense.png" width="25" style="vertical-align:middle;margin-right:4px">[ pFsense](/pfsense)
+<img src="/images/pfsense.png" width="25" style="vertical-align:middle;margin-right:4px"> pFsense
 
 
 # 🌟 Favorites
 
-🔥:office: [Office Lab Equipment](/officelab) The equipment
+🔥:office: Office Lab Equipment The equipment
 
 ---
 
