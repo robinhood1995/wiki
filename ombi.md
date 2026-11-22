@@ -1,19 +1,23 @@
 ---
-title: Ombi
-description: Ombi media request portal for Plex, Jellyfin and Emby users (LinuxServer image), with Docker Compose.
+title: Ombi (deprecated, use Seerr)
+description: Ombi media request portal. Deprecated: new installs should use Seerr.
 published: true
-date: 2026-10-20T20:01:39.417Z
-tags: docker, docker-compose, homelab, jellyfin, media, plex, requests
+date: 2026-11-22T06:33:21.797Z
+tags: deprecated, docker, docker-compose, homelab, jellyfin, media, plex, requests
 editor: markdown
 dateCreated: 2026-09-08T21:15:35.866Z
 ---
 
-# Ombi
+# Ombi (deprecated, use Seerr)
+
+> **Deprecated.** Ombi is retired in this lab. New installs should use [Seerr](/seerr).
+{.is-warning}
+
 
 > Ombi media request portal for Plex, Jellyfin and Emby users (LinuxServer image), with Docker Compose.
 {.is-info}
 
-_Last updated: Oct 2026_
+_Last updated: Nov 2026_
 
 ## Overview
 
