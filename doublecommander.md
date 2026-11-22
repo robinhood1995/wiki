@@ -1,19 +1,23 @@
 ---
-title: Double Commander
-description: Double Commander dual-pane file manager in the browser (LinuxServer KasmVNC) with Docker Compose.
+title: Double Commander (deprecated)
+description: Double Commander dual-pane file manager. Deprecated: stack removed, page kept as an example.
 published: true
-date: 2026-10-18T03:27:54.966Z
-tags: docker, docker-compose, documents, file-manager, files, homelab, kasmvnc
+date: 2026-11-22T06:33:25.199Z
+tags: deprecated, docker, docker-compose, documents, file-manager, files, homelab, kasmvnc
 editor: markdown
 dateCreated: 2026-09-08T21:26:12.838Z
 ---
 
-# Double Commander
+# Double Commander (deprecated)
+
+> **Deprecated.** The Double Commander stack was removed. This page is kept as an example only. For a web file manager, see [File Browser](/filebrowser) or [Filestash](/filestash).
+{.is-warning}
+
 
 > Double Commander dual-pane file manager in the browser (LinuxServer KasmVNC) with Docker Compose.
 {.is-info}
 
-_Last updated: Oct 2026_
+_Last updated: Nov 2026_
 
 ## Overview
 
