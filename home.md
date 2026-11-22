@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-11-22T06:33:18.295Z
+date: 2026-11-22T06:34:59.579Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -59,7 +59,7 @@ New to self-hosting? Start here:
 ### 🖥️ Self-Hosting MediaStack (must have)
 [<img src="/images/plex.png" width="25" style="vertical-align:middle;margin-right:4px"> Plex Setup](/plex)
 [<img src="/images/jellyfin.png" width="25" style="vertical-align:middle;margin-right:4px"> Jellyfin Setup](/jellyfin)
-[<img src="/images/jellyseerr.png" width="25" style="vertical-align:middle;margin-right:4px"> Seerr Setup](/jellyseerr)
+[<img src="/images/jellyseerr.png" width="25" style="vertical-align:middle;margin-right:4px"> Seerr Setup](/seerr)
 
 ### 🖥️ Self-Hosting ImageStack
 <img src="/images/immich.png" width="25" style="vertical-align:middle;margin-right:4px">[ Immich Photo Management](/immich)
