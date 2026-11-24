@@ -2,7 +2,7 @@
 title: Home
 description: Introduction
 published: true
-date: 2026-11-22T06:34:59.579Z
+date: 2026-11-24T00:33:29.796Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-03T22:58:05.036Z
@@ -80,6 +80,7 @@ Make sure you configure a VPN
 ---
 
 ## 💬 Connect
+<img src="/images/discord.png" width="25" style="vertical-align:middle;margin-right:4px"> [SlingBuilt Community on Discord](https://www.slingbuilt.com/discord)
 <img src="/images/github-light.png" width="25" style="vertical-align:middle;margin-right:4px"> [GitHub](https://github.com/SFLServicesLLC) Report issues/suggest edits
 <img src="/images/buy-me-a-coffee.png" width="25" style="vertical-align:middle;margin-right:4px"> [Buy Me a Coffee](https://www.buymeacoffee.com/robinhood1995) Support my work
 <img src="/images/ko-fi.png" width="25" style="vertical-align:middle;margin-right:4px"> [Buy Me a Ko-Fi](https://ko-fi.com/robinhood1995) Support my work
@@ -88,10 +89,10 @@ Make sure you configure a VPN
 ---
 
 ## 📢 Announcments
-Please use Discord.
+Please use [SlingBuilt Community on Discord](https://www.slingbuilt.com/discord).
 
 <img src="/images/discord.png" width="25" style="vertical-align:middle;margin-right:4px"> **Technical Questions**  
-For complex issues, our [Discord](https://discord.gg/f2s2qzEJE) provides faster responses.
+For complex issues, [SlingBuilt Community on Discord](https://www.slingbuilt.com/discord) provides faster responses.
 
 > 📱 **Mobile Users**  
 > Tap the blue ☰ icon (bottom-left) to navigate.
